@@ -1,19 +1,30 @@
-import Head from "next/head";
-
 const Footer = () => (
   <footer className="footer">
     <div className="content has-text-centered">
       <div className="columns">
         <div className="column">
           <h1 className="has-text-left">Random Stuff</h1>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
         </div>
         <div className="column">
-          {" "}
           <h1 className="has-text-left">Random Stuff</h1>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
         </div>
         <div className="column">
-          {" "}
           <h1 className="has-text-left">Random Stuff</h1>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
         </div>
         <div className="column">
           <h1 className="has-text-left">Contact Us</h1>
@@ -33,7 +44,7 @@ const Footer = () => (
         <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>
         . The source code is licensed
         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-        website content is licensed{" "}
+        website content is li
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
           CC BY NC SA 4.0
         </a>
@@ -41,6 +52,9 @@ const Footer = () => (
     </div>
     <style jsx>
       {`
+        a {
+          display: block;
+        }
         .footer {
           background: transparent;
         }
