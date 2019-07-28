@@ -4,15 +4,7 @@ const Footer = () => (
       <div className="columns">
         <div className="column">
           <h1 className="has-text-left">Random Stuff</h1>
-          <a className="has-text-left">Any Text</a>
-          <a className="has-text-left">Any Text</a>
-          <a className="has-text-left">Any Text</a>
-          <a className="has-text-left">Any Text</a>
-          <a className="has-text-left">Any Text</a>
-        </div>
-        <div className="column">
-          <h1 className="has-text-left">Random Stuff</h1>
-          <a className="has-text-left">Any Text</a>
+
           <a className="has-text-left">Any Text</a>
           <a className="has-text-left">Any Text</a>
           <a className="has-text-left">Any Text</a>
@@ -20,7 +12,15 @@ const Footer = () => (
         </div>
         <div className="column">
           <h1 className="has-text-left">Random Stuff</h1>
+
           <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+          <a className="has-text-left">Any Text</a>
+        </div>
+        <div className="column">
+          <h1 className="has-text-left">Random Stuff</h1>
+
           <a className="has-text-left">Any Text</a>
           <a className="has-text-left">Any Text</a>
           <a className="has-text-left">Any Text</a>
